@@ -1,0 +1,17 @@
+body { background-color: #FFFFFF; }
+
+#top h2 { text-align: center; }
+
+#container { height: 100%; width: 100%; }
+
+#inner { height: 100%; width: 100%; }
+
+#gauge_div table[style] { margin: auto !important; }
+
+svg g text[text-anchor~=middle]{ font-size: 30px; }
+
+svg g text[text-anchor~=start]{ font-size: 20px; }
+
+svg g text[text-anchor~=end]{ font-size: 20px; }
+
+svg g g text[text-anchor~=middle] { font-size: 50px; font-weight: bold; }
