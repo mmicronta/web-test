@@ -1,25 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
+  <!DOCTYPE html>
+  <html lang="en">
   <head>
-	<meta charset="UTF-8" />
-  	<title>Google Gauge - ThingSpeak</title>
-	<link rel='icon' href='img/favicon.ico'>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/style.css"></link>
   </head>
-
   <body>
-    <div id="top">
-      <h2>Õhutemperatuur meie akna taga</h2>
+    <div id="head-block">
+      <h2>Radiation Web Counter</h2>
     </div>
-    <div id="container">
-      <div id="inner">
-        <div id="gauge_div"> 
+
+    <div id="main-block">
+      <audio id="geiger-sound" loop="true">
+        <source src="media/g_sound.mp3" type="audio/mpeg">
+      </audio>
+      <!-- <embed  hidden="true"  autostart="true"></embed> -->
+      <p id="rad-count">
+        CPM: 0
+      </p>
+      <div id="rad-sv">
+        0.000 uSv/h
       </div>
+      <div id="button">
+        <button id="button1">Start Counter</button>
+      </div>
+      <div id="totalCount">
+        Total Pulses: 0
+      </div>
+    
     </div>
+    
+    
+    <script type="text/javascript" src="js/geiger.js"></script>
   </body>
-</html>
-
-<link rel='stylesheet' type='text/css' href='style/webtemp.css'>
-
-<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
-<script type='text/javascript' src='https://www.google.com/jsapi'></script>
-<script type='text/javascript' src='js/webtemp.js'></script>
+  </html>
