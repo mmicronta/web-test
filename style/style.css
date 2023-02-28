@@ -1,0 +1,47 @@
+#head-block {
+  text-align: center;
+}
+
+#main-block {
+  position: relative;
+  width: 600px;
+  height: 400px;
+  margin: auto;
+  background-color: bisque;
+  border-style:double;
+  border-color: black;
+  border-radius: 5px;
+}
+
+#rad-count {
+  padding: 30px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+}
+
+#rad-sv {
+  position: absolute;
+  left: 20px;
+  bottom: 120px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 40px;
+}
+
+#totalCount {
+  position: absolute;
+  left: 20px;
+  bottom: 60px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+#button {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  font-size: 34px;
+}
